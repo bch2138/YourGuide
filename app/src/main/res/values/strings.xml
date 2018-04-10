@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Your Guide</string>
+    <string name="parks">Parks &amp; Recreation</string>
+    <string name="tourist_site">Historical Tourist Site</string>
+
+    <!--List of Parks in New York City-->
+    <!--Park Name-->
+    <string name="park_one">Sakura Park</string>
+    <string name="park_two">Riverside Park</string>
+    <string name="park_three">St. Nicholas Park</string>
+
+
+    <!--Park Information-->
+    <string name="info_park_one">Located between Riverside Church and International House, Sakura Park owes its name to the more than 2,000 cherry trees delivered to parks in New York City from Japan in 1912.</string>
+    <string name="info_park_two">Stretching four miles from 72nd to 158th streets along the Hudson River, Riverside Park is widely regarded as Manhattan's most spectacular waterfront park. As one of only eight officially designated scenic landmarks in the City of New York, it has a long and storied history. </string>
+    <string name="info_park_three">This spacious park is named for St. Nicholas of Myra. It is located at the intersection of St. Nicholas Avenue, 127th Street, St. Nicholas Terrace and 141st Street, bordering the Manhattan neighborhoods of Hamilton Heights, Manhattanville, and Harlem. </string>
+
+
+    <!--Park Address-->
+    <string name="address_park_one">500 Riverside Dr, New York, NY </string>
+    <string name="address_park_two">W. 72 St. to St Clair Pl., Manhattan, New York, NY </string>
+    <string name="address_park_three">St. Nicholas Ave., St. Nicholas Ter. bet. W. 128 St. and W. 141 St., Manhattan, New York, NY </string>
+
+
+    <!--Park website/phone-->
+    <string name="web_park_one">www.nycgovparks.org/parks/sakura-park </string>
+    <string name="web_park_two">www.nycgovparks.org/parks/riverside-park </string>
+    <string name="web_park_three">www.nycgovparks.org/parks/st-nicholas-park </string>
+
+
+    <!--Park Google map location-->
+    <string name="map_park_one">https://www.google.com/maps/place/Sakura+Park/@40.8127856,-73.9644378,17z/data=!3m1!4b1!4m12!1m6!3m5!1s0x89c2f640597795e9:0x384a41ad11a39e77!2sSakura+Park!8m2!3d40.8127856!4d-73.9622491!3m4!1s0x89c2f640597795e9:0x384a41ad11a39e77!8m2!3d40.8127856!4d-73.9622491</string>
+    <string name="map_park_two">https://www.google.com.ng/maps/place/Riverside+Park/@40.8013427,-74.0423501,12z/data=!4m23!1m17!4m16!1m6!1m2!1s0x89c2f62ed8cf502f:0x7c67f4849fdf7287!2sRiverside+Park,+New+York,+NY!2m2!1d-73.9723096!2d40.8012339!1m2!1m1!2s'!1m2!1m1!2s'!1m2!1m1!2s'!3m4!1s0x89c2f62ed8cf502f:0x7c67f4849fdf7287!8m2!3d40.8012339!4d-73.9723096</string>
+    <string name="map_park_three">https://www.google.com.ng/maps/place/St.+Nicholas+Park/@40.8174729,-73.9509363,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f66fcbc031d3:0x4c9cd4fd1b947438!8m2!3d40.8174689!4d-73.9487476</string>
+
+
+    <!--List of tourist site New York City-->
+    <!--Tourist site Name-->
+    <string name="tourist_one">Grant\'s Tomb</string>
+    <string name="tourist_two">The Cathedral of St. John the Divine</string>
+    <string name="tourist_three">Buell Hall</string>
+
+
+    <!--Tourist site info-->
+    <string name="info_tourist_one">The final resting place of President Ulysses S. Grant and his wife, Julia, is the largest mausoleum in North America. It testifies to a people’s gratitude for the man who ended the bloodiest conflict in American history as Commanding General of the Union Army and then, as President of the United States, strove to heal a nation after a civil war and make rights for all citizens a reality.</string>
+    <string name="info_tourist_two">In a city of skyscrapers, the Cathedral impresses with sheer size. Its detailed façade towers over Amsterdam Avenue, and the building extends a full avenue block to Morningside Drive. The Cathedral is more than 120 years old, and remains unfinished. Despite incomplete construction, it is the largest cathedral in the world, making it a global landmark. The Cathedral’s distinctive architecture is an equal claim to fame, and an important monument in the history of its neighborhood and city.</string>
+    <string name="info_tourist_three">Buell Hall (also known in the past as College Hall, Alumni House and East Hall)[1], is the only remaining building on the Morningside Heights campus that dates back to Columbia's predecessor on the site, the Bloomingdale Insane Asylum. As such, it is the oldest building on campus.</string>
+
+
+    <!--Tourist site address-->
+    <string name="address_tourist_one">W 122nd St and Riverside Dr, New York, NY</string>
+    <string name="address_tourist_two">1047 Amsterdam Ave, New York, NY </string>
+    <string name="address_tourist_three">Columbia University Main Campus, New York, NY </string>
+
+
+    <!--Tourist site website/phone-->
+    <string name="web_tourist_one">www.nps.gov/gegr/index.htm</string>
+    <string name="web_tourist_two">www.stjohndivine.org</string>
+    <string name="web_tourist_three">www.wikicu.com/Buell_Hall</string>
+
+
+    <!--Tourist site Google Map location-->
+    <string name="map_tourist_one">https://www.google.com.ng/maps/place/General+Grant+National+Memorial/@40.8134085,-73.9652558,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f640faa71aa3:0x4f7927f02d4ef82e!8m2!3d40.8134045!4d-73.9630671 </string>
+    <string name="map_tourist_two">https://www.google.com.ng/maps/place/The+Cathedral+Church+of+St.+John+the+Divine/@40.8038396,-73.9640641,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f63c567b446b:0xc4a30e125ef40bff!8m2!3d40.8038356!4d-73.9618754</string>
+    <string name="map_tourist_three">https://www.google.com.ng/maps/place/Buell+Hall,+New+York,+NY+10027/@40.8077317,-73.9636268,17z/data=!3m1!4b1!4m5!3m4!1s0x89c2f63e42410075:0x320cd179c274aca2!8m2!3d40.8077339!4d-73.9614348</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="tag_line"> Your Guide App</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_exit">Exit</string>
+
+</resources>
