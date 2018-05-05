@@ -12,6 +12,11 @@
             android:id="@+id/nav_tourist"
             android:icon="@drawable/tourist"
             android:title="@string/tourist_site" />
+
+        <item
+            android:id="@+id/action_exit"
+            
+            android:title="@string/action_exit"/>
     </group>
 
 
