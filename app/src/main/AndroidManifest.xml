@@ -9,32 +9,26 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name="com.example.uhylabr.yourguide.SplashScreenActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
-            android:name="com.example.uhylabr.yourguide.MainActivity"
+            android:name=".MainActivity"
             android:label="Your Guide"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name="com.example.uhylabr.yourguide.ParksActivity"
+            android:name=".ParksActivity"
             android:label="Parks"
-            android:parentActivityName="com.example.uhylabr.yourguide.MainActivity" />
-
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="com.example.uhylabr.yourguide.TouristsActivity"
+            android:name=".TouristsActivity"
             android:label="Tourist"
-            android:parentActivityName="com.example.uhylabr.yourguide.MainActivity" />
-
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Login" />
     </application>
 
 </manifest>

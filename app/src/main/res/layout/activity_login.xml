@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.uhylabr.yourguide.Login">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grants_tomb"
+        />
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:textAlignment="center"/>
+    <TextView
+        android:id="@+id/pleaseEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your credentials below to start touring!"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:layout_below="@id/welcome"
+        android:textColor="#fff"/>
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email/Username"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/pleaseEnter"
+        android:textColorHint="#fff"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:hint="Password"
+        android:layout_marginBottom="10dp"
+        android:textColorHint="#fff" />
+    <Button
+        android:id="@+id/logIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:text="Log In"
+        android:layout_marginBottom="10dp"
+        android:onClick="login"/>
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logIn"
+        android:text="Sign Up"
+        android:layout_marginBottom="10dp"
+        android:onClick="signUp"/>
+
+
+</RelativeLayout>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#607D8B</color>
-    <color name="colorPrimaryDark">#455A64</color>
-    <color name="colorPrimaryLight">#CFD8DC</color>
-    <color name="colorAccent">#00BCD4</color>
-    <color name="colorPrimaryText">#212121</color>
+    <color name="colorPrimary">#355c7d</color>
+    <color name="colorPrimaryDark">#142A4F</color>
+    <color name="colorPrimaryLight">#F8B195</color>
+    <color name="colorAccent">#f67280</color>
+    <color name="colorPrimaryText">#ffffff</color>
     <color name="colorSecondaryText">#757575</color>
-    <color name="colorIcons">#FFFFFF</color>
+    <color name="colorIcons">#f8b195</color>
     <color name="colorDivider">#BDBDBD</color>
 
-    <color name="colorHotels">#a9476d</color>
-    <color name="colorParks">#6cf9a9</color>
-    <color name="colorRestaurants">#3a4f93</color>
-    <color name="colorTourist">#e6d73a</color>
+    <color name="colorHotels">#f67280</color>
+    <color name="colorParks">#6c5b7b</color>
+    <color name="colorRestaurants">#c06c84</color>
+    <color name="colorTourist">#F8B195</color>
 
     <color name="colorWhite">#f5f5f5</color>
     <color name="colorHome">#efebe9</color>

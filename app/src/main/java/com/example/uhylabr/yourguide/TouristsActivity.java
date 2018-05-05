@@ -19,7 +19,7 @@ public class TouristsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.place_list);
 
-        final ArrayList<com.example.uhylabr.yourguide.Place> places = new ArrayList<com.example.uhylabr.yourguide.Place>();
+        final ArrayList<com.example.uhylabr.yourguide.Place> places = new ArrayList<>();
 
         places.add(new com.example.uhylabr.yourguide.Place(R.drawable.grant,R.string.tourist_one,R.string.info_tourist_one,
                 R.string.address_tourist_one,R.string.web_tourist_one,

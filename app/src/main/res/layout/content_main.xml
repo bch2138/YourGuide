@@ -10,7 +10,7 @@
     tools:context="com.example.uhylabr.yourguide.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
-    <FrameLayout
+    <LinearLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -19,12 +19,19 @@
 
         <TextView
             android:id="@+id/tv_tourist"
-            style="@style/categoryStyle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:padding="16dp"
+            android:gravity="start"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif"
             android:drawablePadding="8dp"
             android:drawableStart="@drawable/tourist"
             android:contentDescription="@string/tourist_site"
             android:text="@string/tourist_site" />
-    </FrameLayout>
+    </LinearLayout>
 
     <FrameLayout
         android:layout_weight="1"
@@ -35,7 +42,14 @@
 
         <TextView
             android:id="@+id/tv_parks"
-            style="@style/categoryStyle"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:padding="16dp"
+            android:gravity="start"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="sans-serif"
             android:contentDescription="@string/parks"
             android:drawablePadding="8dp"
             android:drawableStart="@drawable/park"
